@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-mongodb" />
         <module name="springboot-quickstart" />
         <module name="springboot-tomcat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-quickstart" target="1.8" />
       <module name="springboot-tomcat" target="1.8" />
     </bytecodeTargetLevel>
