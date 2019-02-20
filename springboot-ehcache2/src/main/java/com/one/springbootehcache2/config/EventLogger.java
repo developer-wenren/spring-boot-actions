@@ -1,4 +1,4 @@
-package com.one.spring.ehcache.config;
+package com.one.springbootehcache2.config;
 
 import org.ehcache.event.CacheEvent;
 import org.ehcache.event.CacheEventListener;
@@ -6,7 +6,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author GGIB
+ * @author One
+ * @description
+ * @date 2019/02/20
  */
 public class EventLogger implements CacheEventListener<Object, Object> {
 
@@ -14,7 +16,7 @@ public class EventLogger implements CacheEventListener<Object, Object> {
 
     @Override
     public void onEvent(CacheEvent<Object, Object> event) {
-        LOGGER.info("Event: " + event.getType() + " Key: " + event.getKey() + " old value: " + event.getOldValue()
-                + " new value: " + event.getNewValue());
+        LOGGER.info("Event: " + event.getType() + " Key: " + event.getKey() + " old value: " + event.getOldValue() + " new value: " + event.getNewValue());
     }
+
 }

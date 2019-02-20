@@ -1,7 +1,7 @@
-<config xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+<config
+        xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
         xmlns='http://www.ehcache.org/v3'
-        xmlns:jsr107='http://www.ehcache.org/v3/jsr107' xsi:schemaLocation="http://www.ehcache.org/v3/jsr107
-http://www.ehcache.org/v3 ">
+        xmlns:jsr107='http://www.ehcache.org/v3/jsr107'>
 
     <service>
         <jsr107:defaults>
@@ -12,7 +12,7 @@ http://www.ehcache.org/v3 ">
     <cache-template name="heap-cache">
         <listeners>
             <listener>
-                <class>com.one.spring.ehcache.config.EventLogger</class>
+                <class>com.one.springbootehcache2.config.EventLogger</class>
                 <event-firing-mode>ASYNCHRONOUS</event-firing-mode>
                 <event-ordering-mode>UNORDERED</event-ordering-mode>
                 <events-to-fire-on>CREATED</events-to-fire-on>
@@ -27,15 +27,4 @@ http://www.ehcache.org/v3 ">
             <offheap unit="MB">100</offheap>
         </resources>
     </cache-template>
-
-    <!--<diskStore path="java.io.tmpdir/Tmp_EhCache" />-->
-
-    <!--<defaultCache-->
-            <!--eternal="false"-->
-            <!--maxElementsInMemory="1000"-->
-            <!--overflowToDisk="false"-->
-            <!--diskPersistent="false"-->
-            <!--timeToIdleSeconds="0"-->
-            <!--timeToLiveSeconds="0"-->
-            <!--memoryStoreEvictionPolicy="LRU" />-->
 </config>

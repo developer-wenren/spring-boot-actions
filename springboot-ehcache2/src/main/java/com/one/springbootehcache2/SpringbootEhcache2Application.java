@@ -1,19 +1,15 @@
-package com.one.spring.ehcache;
+package com.one.springbootehcache2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 
-/**
- * Ehcache 集成 Spring Boot
- * @author One
- */
 @SpringBootApplication
 @EnableCaching
-public class EhcacheApplication {
+public class SpringbootEhcache2Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(EhcacheApplication.class, args);
+        SpringApplication.run(SpringbootEhcache2Application.class, args);
     }
 
 }
