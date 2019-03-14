@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/springboot-exception/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jsp/pom.xml" />
       </list>
     </option>
   </component>

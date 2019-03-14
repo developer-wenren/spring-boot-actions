@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-ehcache2" />
         <module name="springboot-exception" />
+        <module name="springboot-jsp" />
         <module name="springboot-mongodb" />
         <module name="springboot-quickstart" />
         <module name="springboot-tomcat" />
@@ -16,8 +17,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springboot-ehcache2" target="1.5" />
-      <module name="springboot-exception" target="1.5" />
+      <module name="springboot-ehcache2" target="1.8" />
+      <module name="springboot-exception" target="1.8" />
+      <module name="springboot-jsp" target="1.8" />
       <module name="springboot-mongodb" target="1.5" />
       <module name="springboot-quickstart" target="1.8" />
       <module name="springboot-tomcat" target="1.5" />
@@ -26,6 +28,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-ehcache2" options="-parameters" />
+      <module name="springboot-jsp" options="-parameters" />
       <module name="springboot-web" options="-parameters" />
     </option>
   </component>
