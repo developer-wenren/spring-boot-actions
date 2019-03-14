@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springboot-tomcat" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -7,10 +10,15 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springboot-ehcache2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-web/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
