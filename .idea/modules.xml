@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springboo-websocket/springboo-websocket.iml" filepath="$PROJECT_DIR$/springboo-websocket/springboo-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-ehcache2/springboot-ehcache2.iml" filepath="$PROJECT_DIR$/springboot-ehcache2/springboot-ehcache2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-exception/springboot-exception.iml" filepath="$PROJECT_DIR$/springboot-exception/springboot-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jsp/springboot-jsp.iml" filepath="$PROJECT_DIR$/springboot-jsp/springboot-jsp.iml" />
@@ -12,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-tomcat/springboot-tomcat.iml" filepath="$PROJECT_DIR$/springboot-tomcat/springboot-tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-thymeleaf/thymeleaf.iml" />
     </modules>
   </component>
