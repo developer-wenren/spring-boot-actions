@@ -12,6 +12,7 @@
         <module name="springboot-jsp" />
         <module name="springboot-mongodb" />
         <module name="springboot-quickstart" />
+        <module name="springboot-restful" />
         <module name="springboot-tomcat" />
         <module name="springboot-web" />
         <module name="thymeleaf" />
@@ -23,6 +24,7 @@
       <module name="springboot-jsp" target="1.8" />
       <module name="springboot-mongodb" target="1.5" />
       <module name="springboot-quickstart" target="1.8" />
+      <module name="springboot-restful" target="1.8" />
       <module name="springboot-tomcat" target="1.5" />
       <module name="springboot-web" target="1.8" />
       <module name="thymeleaf" target="1.8" />
@@ -32,6 +34,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-ehcache2" options="-parameters" />
       <module name="springboot-jsp" options="-parameters" />
+      <module name="springboot-restful" options="-parameters" />
       <module name="springboot-web" options="-parameters" />
       <module name="thymeleaf" options="-parameters" />
     </option>
