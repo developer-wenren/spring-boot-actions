@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/springboot-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/springboo-tswagger/pom.xml" />
+        <option value="$PROJECT_DIR$/springboo-websocket/pom.xml" />
       </list>
     </option>
   </component>
