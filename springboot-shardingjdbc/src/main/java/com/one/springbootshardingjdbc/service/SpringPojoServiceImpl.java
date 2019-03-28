@@ -74,7 +74,7 @@ public class SpringPojoServiceImpl implements SpringPojoService {
     private List<Long> insertData() {
         System.out.println("---------------------------- Insert Data ----------------------------");
         List<Long> result = new ArrayList<>(10);
-        for (int i = 1; i <= 20; i++) {
+        for (int i = 1; i <= 100; i++) {
             Order order = new Order();
             order.setUserId(i);
             order.setStatus("INSERT_TEST");

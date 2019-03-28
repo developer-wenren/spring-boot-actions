@@ -7,7 +7,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.ImportResource;
 
+@ImportResource({"classpath*:META-INF/application-sharding-databases-tables.xml"})
 @ComponentScan("com.one.springbootshardingjdbc.*")
 @MapperScan(basePackages = "com.one.springbootshardingjdbc.repository")
 @SpringBootApplication

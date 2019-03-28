@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/springboo-tswagger/pom.xml" />
         <option value="$PROJECT_DIR$/springboo-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-shardingjdbc/pom.xml" />
       </list>
     </option>
   </component>

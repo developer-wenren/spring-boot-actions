@@ -45,16 +45,27 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.shardingsphere/sharding-jdbc-spring-boot-starter -->
+        <!--<dependency>-->
+        <!--<groupId>io.shardingsphere</groupId>-->
+        <!--<artifactId>sharding-jdbc-spring-boot-starter</artifactId>-->
+        <!--<version>3.1.0</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>io.shardingsphere</groupId>
-            <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
+            <artifactId>sharding-jdbc-spring-namespace</artifactId>
             <version>3.1.0</version>
         </dependency>
 
         <dependency>
-            <groupId>ant.mysql</groupId>
+            <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.15</version>
+            <version>8.0.15</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dangdang</groupId>
+            <artifactId>sharding-jdbc-self-id-generator</artifactId>
+            <version>RELEASE</version>
         </dependency>
     </dependencies>
 
