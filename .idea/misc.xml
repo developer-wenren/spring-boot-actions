@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/springboo-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-shardingjdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-validation/pom.xml" />
       </list>
     </option>
   </component>

@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-shardingjdbc/springboot-shardingjdbc.iml" filepath="$PROJECT_DIR$/springboot-shardingjdbc/springboot-shardingjdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-tomcat/springboot-tomcat.iml" filepath="$PROJECT_DIR$/springboot-tomcat/springboot-tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-validation/springboot-validation.iml" filepath="$PROJECT_DIR$/springboot-validation/springboot-validation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-thymeleaf/thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-websocket/websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/websocket.iml" />
